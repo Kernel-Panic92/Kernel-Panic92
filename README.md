@@ -40,4 +40,4 @@ Plataforma ERP modular con autenticación centralizada, RBAC y orquestación ví
 
 ### 📫 Contacto
 
-[GitHub](https://github.com/Kernel-Panic92) · [LinkedIn](https://linkedin.com/in/edgarvelasquez)
+[GitHub](https://github.com/Kernel-Panic92)

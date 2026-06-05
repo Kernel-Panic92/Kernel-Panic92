@@ -1,4 +1,4 @@
-## Hola Soy Edgar Velásquez
+## Hola soy Edgar Velásquez
 
 **Ingeniero de software** construyendo sistemas modulares, escalables y mantenibles.
 

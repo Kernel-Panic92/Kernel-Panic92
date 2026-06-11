@@ -6,7 +6,7 @@
 
 ### 🚧 Proyecto actual: Horix Platform
 
-Plataforma ERP modular con módulos independientes (cada uno con su propia auth y frontend) y un **Launcher** que orquesta todo: CRUD de módulos, health checks, generación de nginx y **MCP Gateway** unificado.
+Plataforma ERP con módulos independientes (cada uno con su propia auth y frontend) y un **Launcher** que orquesta todo: CRUD de módulos, health checks, generación de nginx y **MCP Gateway** unificado.
 
 ```
            Nginx SSL

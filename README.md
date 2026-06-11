@@ -1,6 +1,6 @@
 ## Hola soy Edgar Velásquez
 
-**Ingeniero de software** construyendo sistemas modulares, escalables y mantenibles.
+**Ingeniero de software** construyendo sistemas modulares, escalables y sistenibles.
 
 ---
 

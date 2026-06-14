@@ -36,6 +36,7 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 - **DocFlow MCP**: 13 tools (facturas, dashboard, eventos, vencimientos DIAN) → ahora con tools `causar_factura` y `pagar_factura`, transacciones ACID, queries parametrizadas y registro de auditoría
 - **Horix MCP**: 16 tools (registros, empleados, reportes, exportación CSV)
 - **Horix Config UI** rediseñada con layout de tabs tipo DocFlow (Correo, Backup, Seguridad, Auditoría, Permisos, Actualizar) y **updater** desde la interfaz vía `git pull + npm install + pm2 restart`
+- **Launcher updater**: tab "Actualizar" en el admin del orquestador con `git fetch + reset hard + npm install` y reinicio automático vía PM2
 - **Responsive design** para mobile
 - **Windows TLS fix** para firewalls corporativos (FortiGate)
 

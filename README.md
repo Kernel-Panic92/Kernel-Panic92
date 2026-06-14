@@ -33,8 +33,9 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 - **MCP Gateway** unificado con OAuth 2.0 DCR + Authorization Code flow (compatible con Claude Desktop/Web)
 - **Password recovery** vía SMTP configurable desde Admin
 - **Nginx generator** desde la UI con prefixes por módulo
-- **DocFlow MCP**: 13 tools (facturas, dashboard, eventos, vencimientos DIAN)
+- **DocFlow MCP**: 13 tools (facturas, dashboard, eventos, vencimientos DIAN) → ahora con tools `causar_factura` y `pagar_factura`, transacciones ACID, queries parametrizadas y registro de auditoría
 - **Horix MCP**: 16 tools (registros, empleados, reportes, exportación CSV)
+- **Horix Config UI** rediseñada con layout de tabs tipo DocFlow (Correo, Backup, Seguridad, Auditoría, Permisos, Actualizar) y **updater** desde la interfaz vía `git pull + npm install + pm2 restart`
 - **Responsive design** para mobile
 - **Windows TLS fix** para firewalls corporativos (FortiGate)
 

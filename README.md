@@ -35,6 +35,7 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 - **horix-erp (launcher)**: Nueva pestaña **Respaldo** con exportación/importación de configuración (módulos, config, usuarios) vía JSON. Útil para reinstalaciones.
 - **horix-erp (launcher)**: Dashboard principal ahora muestra borde verde/amarillo/rojo en tarjetas de módulos según estado MCP.
 - **horix-erp (launcher)**: Versión `v1.0.0` release creada + versión visible junto al nombre de usuario.
+- **Horix**: Endpoint `/api/version` agregado para mostrar versión desde package.json en el sidebar.
 
 **2026-06-16** — Sesión opencode:
 - **horix-erp (launcher)**: Fix health check para que caiga a `/mcp` cuando `/health` responde no-OK (404). Fix PM2 name mapping `wordpress → wordpress-mcp` para status y reinicio. Fix trailing slash en URLs de módulos.

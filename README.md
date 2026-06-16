@@ -29,6 +29,13 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 **Stack:** Node.js, Express, SQLite, PostgreSQL, JWT, Nginx, PM2  
 **Principios:** Módulos autónomos, sin acoplamiento, cada módulo gestiona su propio auth
 
+### 📋 Bitácora
+
+**2026-06-16** — Sesión opencode:
+- **horix-erp (launcher)**: Fix health check para que caiga a `/mcp` cuando `/health` responde no-OK (404). Fix PM2 name mapping `wordpress → wordpress-mcp` para status y reinicio. Fix trailing slash en URLs de módulos.
+- **Horix**: Updater cambia a `sudo pm2 restart horix` (corre bajo root). Agregado tab **Telemetría** en configuración (frontend + script tag en index.html).
+- **Servidor Docker**: Horix migrado a PM2 de root con `sudo pm2 start`.
+
 ### Últimas features
 - **MCP Gateway** unificado con OAuth 2.0 DCR + Authorization Code flow (compatible con Claude Desktop/Web)
 - **Password recovery** vía SMTP configurable desde Admin

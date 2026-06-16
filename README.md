@@ -31,6 +31,9 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ### 📋 Bitácora
 
+**2026-06-16** — Sesión opencode (2ª parte):
+- **horix-erp (launcher)**: Nueva pestaña **Respaldo** con exportación/importación de configuración (módulos, config, usuarios) vía JSON. Útil para reinstalaciones.
+
 **2026-06-16** — Sesión opencode:
 - **horix-erp (launcher)**: Fix health check para que caiga a `/mcp` cuando `/health` responde no-OK (404). Fix PM2 name mapping `wordpress → wordpress-mcp` para status y reinicio. Fix trailing slash en URLs de módulos.
 - **Horix**: Updater cambia a `sudo pm2 restart horix` (corre bajo root). Agregado tab **Telemetría** en configuración (frontend + script tag en index.html).

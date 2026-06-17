@@ -31,6 +31,11 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ### 📋 Bitácora
 
+**2026-06-17** — Sesión opencode:
+- **Horix Logistics**: Nuevo módulo **Actualizador** completo — backend con endpoints status/check/update/restart/logs + pestaña en Configuración con versión, verificación y actualización one-click desde la UI.
+- **Horix Logistics**: Fix en importación de archivos — drop zones ahora soportan arrastrar y soltar, feedback visual cuando se hace clic en importar sin archivo seleccionado.
+- **Horix Logistics**: Creados `AGENTS.md` y `BITACORA.md` en el repo (movidos después a `horix-erp/AGENTS.md` y este README).
+
 **2026-06-16** — Sesión opencode (2ª parte):
 - **horix-erp (launcher)**: Nueva pestaña **Respaldo** con exportación/importación de configuración (módulos, config, usuarios) vía JSON. Útil para reinstalaciones.
 - **horix-erp (launcher)**: Dashboard principal ahora muestra borde verde/amarillo/rojo en tarjetas de módulos según estado MCP.

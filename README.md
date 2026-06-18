@@ -31,6 +31,9 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ### 📋 Bitácora
 
+**2026-06-17** — Sesión opencode (2ª parte):
+- **Horix Logistics**: Fix parser SIESA — ahora con detección flexible de tabla, fallback para facturas sin prefijo FEV-, y debug visual en frontend para diagnosticar cuando no se extraen pedidos.
+
 **2026-06-17** — Sesión opencode:
 - **Horix Logistics**: Nuevo módulo **Actualizador** completo — backend con endpoints status/check/update/restart/logs + pestaña en Configuración con versión, verificación y actualización one-click desde la UI.
 - **Horix Logistics**: Fix en importación de archivos — drop zones ahora soportan arrastrar y soltar, feedback visual cuando se hace clic en importar sin archivo seleccionado.
@@ -73,3 +76,5 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 ### 📫 Contacto
 
 [GitHub](https://github.com/Kernel-Panic92)
+
+

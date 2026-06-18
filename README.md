@@ -31,6 +31,9 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ### 📋 Bitácora
 
+**2026-06-18** — Sesión opencode:
+- **Horix Logistics**: Fix updater — ahora detecta automáticamente la rama actual del repo (master) en vez de hardcodear main, permitiendo actualizar desde la UI sin error.
+
 **2026-06-17** — Sesión opencode (2ª parte):
 - **Horix Logistics**: Fix parser SIESA — ahora con detección flexible de tabla, fallback para facturas sin prefijo FEV-, y debug visual en frontend para diagnosticar cuando no se extraen pedidos.
 

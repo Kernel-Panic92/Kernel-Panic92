@@ -31,6 +31,33 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ### 📋 Bitácora
 
+**2026-06-19** — Sesión opencode:
+- **Horix Logistics**: Fix `s.latitud.toFixed is not a function` — PostgreSQL DECIMAL devuelve strings, se usa `Number()` en frontend para convertir antes de `toFixed()`.
+- **Horix Logistics**: Fix `vehiculosUsar` duplicado en `vrp.js` — error de sintaxis que impedía iniciar el servicio tras actualización.
+- **Horix Logistics**: Fix query pedidos en `rutas.js` — retornaba `latitud/longitud` pero VRP esperaba `lat/lng`, se agregó alias SQL.
+- **Horix Logistics**: Mapa en modal de pedido + Google Places Autocomplete actualiza marcador en mapa.
+- **Horix Logistics**: Selector de sede y vehículo filtrado por sede en modal de pedido + campos lat/lng en tabla.
+- **Horix Logistics**: Fix `actualizarMapaPin` para detectar correctamente el mapa de pedido (`p-lat/p-lng`).
+- **Horix Logistics**: CRUD completo de rutas con bulk delete (individual y masivo), endpoint debug `/api/rutas/diagnostico` sin auth.
+- **Pendiente**: Al generar rutas, el vehículo del pedido no se usa — VRP asigna round-robin ignorando `vehiculo_id`.
+
+**2026-06-18** — Sesión opencode (4ª parte):
+- **DocFlow + Horix**: Replicado el layout de SMTP de Logistics (card con `max-width:600px`) en ambos módulos. DocFlow ahora usa la misma card sencilla. Horix cambió de grid 2-columnas a 2 cards apiladas verticalmente (SMTP + Plantilla de Correo), eliminando el problema de espacios desiguales al maximizar.
+- **Launcher**: Nuevo endpoint `GET /api/smtp/internal` sin auth para que los módulos hereden la configuración SMTP.
+- **Horix Logistics**: Implementada herencia SMTP desde el Launcher — flag `smtp_heredar` + `launcher_url` en config, email.js y test SMTP usan fetch al launcher cuando `smtp_heredar = true`. Frontend: checkbox "Heredar del Launcher" desactiva campos SMTP locales y muestra URL del Launcher.
+- **Horix**: Misma herencia SMTP implementada en backend (email.js con fetch al launcher) y frontend (checkbox en pestaña Correo).
+- **DocFlow**: Misma herencia SMTP implementada en backend (smtp.service.js con fetch al launcher al obtener config) y frontend (checkbox + test con inherit=1).
+- **horix-erp**: Creado `framework/` con base.css, components.css, framework.js, theme.js, init.sh + endpoint `/api/shell/config` para que nuevos módulos (CRM, etc.) hereden la UI estandarizada sin depender del launcher en runtime.
+
+**2026-06-18** — Sesión opencode (2ª parte):
+- **Horix Logistics**: Card grid para clientes con avatar+iniciales, selección múltiple, pg_trgm fuzzy matching, búsqueda.
+- **Horix Logistics**: SIESA parser reescrito — formato 3 líneas (nombre / dos valores+FEV / ciudad+dir+tel), captura valor_contado+valor_credito, conductor, placa, nro_guia.
+- **Horix Logistics**: Nuevos campos en pedidos (valor_contado, conductor, placa, nro_guia) + migración 009.
+- **Horix Logistics**: Auto-creación de vehículo al importar SIESA si la placa no existe.
+- **Horix Logistics**: Google Places Autocomplete en formulario cliente + pestaña Mapas en Config para API key.
+- **Horix Logistics**: Buscador y filtro por estado en Pedidos y Vehículos.
+- **Horix Logistics**: Fix thousand separators — pg devuelve NUMERIC como string, se envuelve con Number() para que toLocaleString() funcione.
+
 **2026-06-18** — Sesión opencode:
 - **Horix Logistics**: Fix updater — ahora detecta automáticamente la rama actual del repo (master) en vez de hardcodear main, permitiendo actualizar desde la UI sin error.
 - **Horix Logistics**: Nuevo modal de detalle de pedido — botón 👁️ en la tabla, muestra factura, cliente, dirección, ciudad, teléfono, valor, estado, ruta, coordenadas, fechas.

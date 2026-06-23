@@ -31,6 +31,14 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ### 📋 Bitácora
 
+**2026-06-23** — Sesión opencode:
+- **horix-erp (framework)**: Creado `framework/README.md` con guía completa para crear módulos (backend, MCP, registro, nginx, PM2). Soporte `basePath` en initHorixFramework para proxy prefix.
+- **horix-erp (docs)**: Documentado estado actual del servidor (puertos, nginx, PM2, accesos) en AGENTS.md y README.md. Agregada Clean Install Guide para servidor nuevo (puerto único 443 + path prefix).
+- **Horix Logistics (MCP)**: Protocolo JSON-RPC 2.0 completo con 9 tools ejecutables contra DB.
+- **Horix Logistics (HTTPS)**: Registrado en la plataforma como módulo `/logistics/`. Health check agregado (`GET /health`). Accesible vía `:9443/logistics/`.
+- **Horix Logistics (BASE path)**: Fix session loss en hard refresh — auto-detección de `BASE` desde `location.pathname` para API calls detrás de proxy prefix. Fix function `logout()` faltante.
+- **Logistics**: Agregado AGENTS.md con contexto del proyecto.
+
 **2026-06-19** — Sesión opencode:
 - **Horix Logistics**: Fix `s.latitud.toFixed is not a function` — PostgreSQL DECIMAL devuelve strings, se usa `Number()` en frontend para convertir antes de `toFixed()`.
 - **Horix Logistics**: Fix `vehiculosUsar` duplicado en `vrp.js` — error de sintaxis que impedía iniciar el servicio tras actualización.

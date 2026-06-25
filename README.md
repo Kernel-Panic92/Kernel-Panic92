@@ -121,3 +121,19 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 [GitHub](https://github.com/Kernel-Panic92)
 
 
+
+---
+**2026-06-25 — Sesión 2 — refactor/monorepo-auth**
+- **Servidor unificado**: 4 Express apps → 1 solo `server.js` en puerto 3002
+- Cada módulo exporta `app` sin `app.listen()`
+- Auth centralizada: removidos logins, CRUD usuarios, sesiones locales de todos los módulos
+- Renombrado: horix→nomina, docflow→proveedores, logistics→logistica
+- DBs unificadas: todas las migraciones en `horix_erp` (SQLite + PostgreSQL)
+- Launcher con módulos estáticos (sin registro vía API)
+- Toggle de tema universal `synnox_theme`, modo claro por defecto
+- Removida tabla `sesiones` de Nómina (telemetría, auditoría, backup, restore, migraciones)
+- `fetchCSRF()` antepone `window.BASE` automáticamente
+- Removidos actualizadores por módulo (orquestación centralizada en launcher)
+- Bugs: try block faltante en telemetry, restore button sin id, dashboard_layout restaurado filtra columnas inválidas, centros faltaba en backup/restore
+- Server running via `sudo node server.js` en `/opt/horix-platform`
+- **Pendiente**: permisos de usuario para acceder a módulos, revisar configuración Logística/Proveedores, remover usuarios de Proveedores

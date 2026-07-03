@@ -137,3 +137,19 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 - Bugs: try block faltante en telemetry, restore button sin id, dashboard_layout restaurado filtra columnas inválidas, centros faltaba en backup/restore
 - Server running via `sudo node server.js` en `/opt/horix-platform`
 - **Pendiente**: permisos de usuario para acceder a módulos, revisar configuración Logística/Proveedores, remover usuarios de Proveedores
+
+---
+
+**2026-06-30 — Sesión 3 — refactor/monorepo-auth:**
+- **Seguridad**: 7 CVEs corregidos (command injection, SQL injection, XSS, cookie security)
+- **Auth**: Módulos con `requireModule()` para acceso por perfil
+- **Perfiles**: Sistema completo de perfiles con permisos por módulo
+- **Proveedores**: IMAP sync dos pasos (descarga + procesamiento), bulk delete, records per page, XML download, archivos por proveedor
+- **Logística**: Dashboard con widgets (clima, vehículos, alertas), mapa con geolocation, PDF de rutas con branding
+- **Nómina**: Export SIESA fix, dropdown funcional, permisos cargados
+- **Launcher**: 5 bugs críticos corregidos (XSS, auth, features rotas)
+- **UI**: Botones de acción estandarizados, confirmModal personalizado en todo el proyecto
+- **Instalador**: Reescrito para monorepo unificado (1 solo PM2 process)
+- **Documentación**: AGENTS.md, SECURITY.md, README actualizados
+- **IMAP**: Sync paralelo (10 msgs), ETA, carpetas por proveedor
+- **PDF**: Branding completo, logo, firma, observaciones, vista previa

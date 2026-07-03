@@ -121,35 +121,13 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 [GitHub](https://github.com/Kernel-Panic92)
 
 
-
----
-**2026-06-25 — Sesión 2 — refactor/monorepo-auth**
-- **Servidor unificado**: 4 Express apps → 1 solo `server.js` en puerto 3002
-- Cada módulo exporta `app` sin `app.listen()`
-- Auth centralizada: removidos logins, CRUD usuarios, sesiones locales de todos los módulos
-- Renombrado: horix→nomina, docflow→proveedores, logistics→logistica
-- DBs unificadas: todas las migraciones en `horix_erp` (SQLite + PostgreSQL)
-- Launcher con módulos estáticos (sin registro vía API)
-- Toggle de tema universal `synnox_theme`, modo claro por defecto
-- Removida tabla `sesiones` de Nómina (telemetría, auditoría, backup, restore, migraciones)
-- `fetchCSRF()` antepone `window.BASE` automáticamente
-- Removidos actualizadores por módulo (orquestación centralizada en launcher)
-- Bugs: try block faltante en telemetry, restore button sin id, dashboard_layout restaurado filtra columnas inválidas, centros faltaba en backup/restore
-- Server running via `sudo node server.js` en `/opt/horix-platform`
-- **Pendiente**: permisos de usuario para acceder a módulos, revisar configuración Logística/Proveedores, remover usuarios de Proveedores
-
 ---
 
-**2026-06-30 — Sesión 3 — refactor/monorepo-auth:**
-- **Seguridad**: 7 CVEs corregidos (command injection, SQL injection, XSS, cookie security)
-- **Auth**: Módulos con `requireModule()` para acceso por perfil
-- **Perfiles**: Sistema completo de perfiles con permisos por módulo
-- **Proveedores**: IMAP sync dos pasos (descarga + procesamiento), bulk delete, records per page, XML download, archivos por proveedor
-- **Logística**: Dashboard con widgets (clima, vehículos, alertas), mapa con geolocation, PDF de rutas con branding
-- **Nómina**: Export SIESA fix, dropdown funcional, permisos cargados
-- **Launcher**: 5 bugs críticos corregidos (XSS, auth, features rotas)
-- **UI**: Botones de acción estandarizados, confirmModal personalizado en todo el proyecto
-- **Instalador**: Reescrito para monorepo unificado (1 solo PM2 process)
-- **Documentación**: AGENTS.md, SECURITY.md, README actualizados
-- **IMAP**: Sync paralelo (10 msgs), ETA, carpetas por proveedor
-- **PDF**: Branding completo, logo, firma, observaciones, vista previa
+**2026-06-25/30 — refactor/monorepo-auth**
+- Servidor unificado (1 PM2, 3 módulos, auth centralizada)
+- Seguridad: 7 CVEs, perfiles con permisos por módulo
+- Proveedores: IMAP sync paralelo, bulk delete, XML download, archivos por proveedor
+- Logística: Dashboard widgets, geolocation, PDF con branding, clima por sede
+- Nómina: Export SIESA funcional, permisos sincronizados
+- UI: Botones estandarizados, confirmModal personalizado
+- Instalador reescrito para monorepo

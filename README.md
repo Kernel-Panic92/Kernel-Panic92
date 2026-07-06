@@ -123,11 +123,12 @@ Plataforma ERP con módulos independientes (cada uno con su propia auth y fronte
 
 ---
 
-**2026-06-25/30 — refactor/monorepo-auth**
+**2026-06-25/30/01 — refactor/monorepo-auth**
 - Servidor unificado (1 PM2, 3 módulos, auth centralizada)
-- Seguridad: 7 CVEs, perfiles con permisos por módulo
+- Seguridad: 8 CVEs, perfiles con permisos por módulo
 - Proveedores: IMAP sync paralelo, bulk delete, XML download, archivos por proveedor
 - Logística: Dashboard widgets, geolocation, PDF con branding, clima por sede
-- Nómina: Export SIESA funcional, permisos sincronizados
-- UI: Botones estandarizados, confirmModal personalizado
+- Nómina: Export SIESA funcional, permisos sincronizados, backup/restore con tipos
+- UI: Botones estandarizados, confirmModal personalizado, sidebars consistentes
+- Launcher: Dynamic quick access, widgets de sistema
 - Instalador reescrito para monorepo

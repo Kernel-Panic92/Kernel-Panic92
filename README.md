@@ -99,12 +99,6 @@ Punto de entrada unificado que gestiona módulos, configuración de servidor, he
 </tr>
 </table>
 
-### 📋 Bitácora
-
-**2026-07-28** — SynnoxERP sale a producción. Beta pública en Vitamar arranca el jueves.
-
-*(entradas anteriores de Horix Platform quedan documentadas en los repos legacy)*
-
 ### 🗄️ Legacy
 
 Estos proyectos fueron absorbidos por SynnoxERP y ya no reciben desarrollo activo, pero quedan disponibles como referencia de la arquitectura original (Launcher + MCP Gateway + módulos independientes):

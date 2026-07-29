@@ -1,79 +1,157 @@
+<div align="center">
+
 # Edgar Velásquez
 
-**Ingeniero de Software** | Colombia
+![Software Engineer](https://img.shields.io/badge/Software_Engineer-2D333B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05LjQgMTYuNkwzLjggMTFsLjYuNkwxMC40IDE4bDExLjItMTEuMi42LS42WiIvPjwvc3ZnPg==)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-00599C?style=for-the-badge&logo=cisco&logoColor=white)
+![Colombia](https://img.shields.io/badge/Colombia-CE1126?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjE2IiBmaWxsPSIjRkVDRTEyIi8+PHJlY3QgeT0iMTYiIHdpZHRoPSIzMiIgaGVpZ2h0PSI4IiBmaWxsPSIjMDA1OUFDIi8+PHJlY3QgeT0iMjQiIHdpZHRoPSIzMiIgaGVpZ2h0PSI4IiBmaWxsPSIjQ0UxMTI2Ii8+PC9zdmc+)
 
-`edgar.velasquez1992@proton.me` · [GitHub](https://github.com/Kernel-Panic92)
+`edgar.velasquez1992@proton.me` · [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kernel-Panic92)
+
+---
+
+### *"Construyendo sistemas modulares, escalables y seguros"*
+
+</div>
 
 ---
 
 ## Perfil
 
-Ingeniero de software enfocado en el diseño y desarrollo de plataformas empresariales modulares y escalables. Experiencia construyendo sistemas ERP, módulos de logística, gestión documental y aplicaciones de escritorio, siempre priorizando la autonomía de los componentes, la seguridad y la mantenibilidad a largo plazo.
+Ingeniero de software con **Maestría en Ciberseguridad**, enfocado en el diseño y desarrollo de plataformas empresariales modulares y escalables. Experiencia construyendo sistemas ERP, módulos de logística, gestión documental y aplicaciones de escritorio, siempre priorizando la autonomía de los componentes, la seguridad y la mantenibilidad a largo plazo.
+
+---
+
+## Educación
+
+<div align="center">
+
+![Master](https://img.shields.io/badge/🎓_Maestría_en_Ciberseguridad-00599C?style=for-the-badge&labelColor=00599C&color=white)
+![University](https://img.shields.io/badge/🏛️_Universitat_de_Catalunya-CE1126?style=for-the-badge&labelColor=CE1126&color=white)
+
+</div>
 
 ---
 
 ## Proyectos
 
-### Horix Platform — Plataforma ERP Empresarial
+<table>
+<tr>
+<td width="50%">
 
-Sistema ERP modular compuesto por múltiples módulos independientes (nómina, logística, facturación) orquestados desde un Launcher central. La plataforma gestiona control de horas extra, novedades de nómina, perfiles de usuario con permisos por módulo y recuperación de contraseña.
+### 🏢 Horix Platform
+**Plataforma ERP Empresarial**
 
-- Arquitectura de módulos autónomos donde cada componente gestiona su propia autenticación y base de datos
-- Gateway unificado para integración con asistentes de IA mediante protocolo MCP
-- Generador de configuración de servidor web desde la interfaz
-- Sistema de respaldo y restauración de configuración
-- Panel de administración con monitoreo del estado de cada módulo
+Sistema ERP modular con múltiples módulos independientes (nómina, logística, facturación) orquestados desde un Launcher central.
 
-### Horix Logística — Optimización de Rutas y Distribución
+- ✅ Arquitectura de módulos autónomos
+- ✅ Gateway para IA (Protocolo MCP)
+- ✅ Generador de configuración automática
+- ✅ Sistema de respaldo y restauración
+- ✅ Panel de administración con monitoreo
 
-Módulo de planificación logística integrado con la plataforma Horix. Permite gestionar pedidos, vehículos, clientes y rutas de distribución con optimización automática.
+</td>
+<td width="50%">
 
-- Importación y parsing de datos desde sistemas ERP externos (SIESA)
-- Geolocalización de clientes y pedidos con integración de mapas
-- Generación automática de rutas optimizadas considerando capacidad de vehículos
-- Gestión de clientes con búsqueda difusa y vista de mapa
-- Exportación de reportes y documentos con branding personalizado
+### 🚚 Horix Logística
+**Optimización de Rutas y Distribución**
 
-### DocFlow — Gestión Documental y Facturación Electrónica
+Módulo de planificación logística con gestión de pedidos, vehículos, clientes y rutas optimizadas automáticamente.
+
+- ✅ Importación desde ERP externos (SIESA)
+- ✅ Geolocalización con mapas
+- ✅ Generación automática de rutas
+- ✅ Búsqueda difusa de clientes
+- ✅ Reportes con branding personalizado
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📄 DocFlow
+**Gestión Documental y Facturación**
 
 Sistema de gestión de facturas con flujo de aprobaciones, sincronización de proveedores y cumplimiento normativo.
 
-- Sincronización de proveedores vía correo electrónico con procesamiento paralelo
-- Ciclo de vida completo de facturas: recepción, causación y pago
-- Dashboard con indicadores y alertas de vencimiento
-- Descarga y gestión de documentos XML
-- Auditoría con registro detallado de cada operación
+- ✅ Sincronización IMAP paralela
+- ✅ Ciclo de vida completo de facturas
+- ✅ Dashboard con indicadores
+- ✅ Gestión de documentos XML
+- ✅ Auditoría detallada
 
-### CamLight CCTV — Sistema de Vigilancia por Video
+</td>
+<td width="50%">
 
-Aplicación de escritorio para Windows para gestión de cámaras IP con streaming en tiempo real, grabación y captura de imágenes.
+### 📹 CamLight CCTV
+**Sistema de Vigilancia por Video**
 
-- Visualización en cuadrícula de múltiples cámaras simultáneas
-- Grabación y reproducción de video
-- Captura de instantáneas bajo demanda
+Aplicación de escritorio Windows para gestión de cámaras IP con streaming en tiempo real.
 
-### Synnox ERP — Sistema Empresarial Modular
+- ✅ Cuadrícula multi-cámara
+- ✅ Grabación y reproducción
+- ✅ Captura de instantáneas
 
-Plataforma ERP modular con enfoque en la escalabilidad y la independencia de componentes.
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 📦 Synnox ERP
+**Sistema Empresarial Modular** · Plataforma ERP con enfoque en escalabilidad e independencia de componentes
+
+</div>
 
 ---
 
 ## Habilidades
 
-| Área | Competencias |
-|------|-------------|
-| **Backend** | JavaScript, Node.js, Express, APIs REST, autenticación y autorización |
-| **Bases de datos** | PostgreSQL, SQLite, diseño de esquemas, migraciones |
-| **Infraestructura** | Nginx, PM2, servidores Linux, despliegue y monitoreo |
-| **Integraciones** | Protocolo MCP, OAuth 2.0, sincronización IMAP, webhooks |
-| **Escritorio** | C#, aplicaciones de video y streaming |
-| **IA & ML** | Python, modelos de edición de imagen, adaptadores LoRA |
-| **Control de versiones** | Git, flujos de trabajo con ramas, CI/CD |
-| **Principios** | Arquitectura modular, separación de responsabilidades, código mantenible |
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)
+![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-4285F4?style=for-the-badge&logo=oauth&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05LjQgMTYuNkwzLjggMTFsLjYuNkwxMC40IDE4bDExLjItMTEuMi42LS42WiIvPjwvc3ZnPg==)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF4444?style=for-the-badge&logo=lockself-destruct&logoColor=white)
+![Architecture](https://img.shields.io/badge/Modular_Architecture-8B5CF6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyTDIgN3YxMGwxMCA1IDEwLTVIN1Y3bDUtM3oiLz48L3N2Zz4=)
+
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kernel-Panic92&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kernel-Panic92&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kernel-Panic92&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
+</div>
 
 ---
 
 ## Contacto
 
-- **Email:** edgar.velasquez1992@proton.me
-- **GitHub:** [Kernel-Panic92](https://github.com/Kernel-Panic92)
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:edgar.velasquez1992@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kernel-Panic92)
+
+</div>

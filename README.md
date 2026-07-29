@@ -33,35 +33,39 @@ Ingeniero de software con **Maestría en Ciberseguridad**, enfocado en el diseñ
 
 ---
 
-## Proyectos
+## Proyecto Principal
+
+<div align="center">
+
+### 🏢 Synnox ERP
+
+**Plataforma ERP Modular Empresarial**
+
+Sistema ERP construido con arquitectura de módulos independientes, diseñado para empresas que necesitan escalabilidad, seguridad y flexibilidad.
+
+</div>
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏢 Horix Platform
-**Plataforma ERP Empresarial**
+### 🕐 Horix — Nómina y Control Horario
+Módulo de gestión de empleados, control de horas extra y novedades de nómina con perfiles de usuario y permisos por módulo.
 
-Sistema ERP modular con múltiples módulos independientes (nómina, logística, facturación) orquestados desde un Launcher central.
-
-- ✅ Arquitectura de módulos autónomos
-- ✅ Gateway para IA (Protocolo MCP)
-- ✅ Generador de configuración automática
-- ✅ Sistema de respaldo y restauración
-- ✅ Panel de administración con monitoreo
+- ✅ Control de horas extra y novedades
+- ✅ Perfiles con permisos por módulo
+- ✅ Exportación a sistemas externos (SIESA)
+- ✅ Dashboard con indicadores en tiempo real
 
 </td>
 <td width="50%">
 
-### 🚚 Horix Logística
-**Optimización de Rutas y Distribución**
+### 🚚 Horix Logística — Rutas y Distribución
+Optimización de rutas de distribución con gestión de pedidos, vehículos y clientes, geolocalización y generación automática de rutas.
 
-Módulo de planificación logística con gestión de pedidos, vehículos, clientes y rutas optimizadas automáticamente.
-
-- ✅ Importación desde ERP externos (SIESA)
-- ✅ Geolocalización con mapas
-- ✅ Generación automática de rutas
-- ✅ Búsqueda difusa de clientes
+- ✅ Geolocalización con integración de mapas
+- ✅ Generación automática de rutas optimizadas
+- ✅ Importación de datos desde ERP externos
 - ✅ Reportes con branding personalizado
 
 </td>
@@ -69,39 +73,35 @@ Módulo de planificación logística con gestión de pedidos, vehículos, client
 <tr>
 <td width="50%">
 
-### 📄 DocFlow
-**Gestión Documental y Facturación**
+### 📄 DocFlow — Facturación Electrónica
+Gestión de facturas con flujo de aprobaciones, sincronización de proveedores vía correo y cumplimiento normativo DIAN.
 
-Sistema de gestión de facturas con flujo de aprobaciones, sincronización de proveedores y cumplimiento normativo.
-
-- ✅ Sincronización IMAP paralela
 - ✅ Ciclo de vida completo de facturas
-- ✅ Dashboard con indicadores
-- ✅ Gestión de documentos XML
-- ✅ Auditoría detallada
+- ✅ Sincronización IMAP de proveedores
+- ✅ Dashboard con alertas de vencimiento
+- ✅ Auditoría detallada de cada operación
 
 </td>
 <td width="50%">
 
-### 📹 CamLight CCTV
-**Sistema de Vigilancia por Video**
+### 🎛️ Launcher — Orquestador Central
+Punto de entrada unificado que orquesta todos los módulos: gestión de usuarios, configuración de servidor, health checks y gateway para IA.
 
-Aplicación de escritorio Windows para gestión de cámaras IP con streaming en tiempo real.
-
-- ✅ Cuadrícula multi-cámara
-- ✅ Grabación y reproducción
-- ✅ Captura de instantáneas
+- ✅ Gestión centralizada de módulos
+- ✅ Generador de configuración automática
+- ✅ Gateway unificado para asistentes de IA
+- ✅ Monitoreo del estado de cada módulo
 
 </td>
 </tr>
 </table>
 
-<div align="center">
+---
 
-### 📦 Synnox ERP
-**Sistema Empresarial Modular** · Plataforma ERP con enfoque en escalabilidad e independencia de componentes
+## Otros Proyectos
 
-</div>
+### 📹 CamLight CCTV
+Aplicación de escritorio Windows para gestión de cámaras IP con streaming en tiempo real, grabación y visualización en cuadrícula multi-cámara.
 
 ---
 
@@ -134,14 +134,13 @@ Aplicación de escritorio Windows para gestión de cámaras IP con streaming en 
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kernel-Panic92&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kernel-Panic92&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kernel-Panic92&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kernel-Panic92&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kernel-Panic92&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 

@@ -33,16 +33,71 @@ Ingeniero de software con **Maestría en Ciberseguridad**, creador de **SynnoxER
 
 ---
 
-## Proyecto Actual
+## Proyecto Principal
+
+<div align="center">
 
 ### 🚀 SynnoxERP
 
-Monorepo ERP unificado que consolida los módulos de HR/Nómina, Logística, Proveedores y Facturación bajo una sola base de datos PostgreSQL. **En producción desde julio 2026**, con beta pública arrancando el 30/07/2026 en Vitamar.
+**Monorepo ERP unificado** · En producción desde julio 2026 · Beta pública en Vitamar
 
 **Stack:** Node.js, Express, PostgreSQL, JWT, Nginx, PM2
 **Principios:** Auth centralizada, módulos desacoplados dentro de un monorepo, migración progresiva desde arquitectura multi-servicio
 
 📦 Repo privado — en desarrollo activo
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🕐 Nómina y Control Horario
+Gestión de empleados, control de horas extra y novedades de nómina con perfiles y permisos granulares.
+
+- ✅ Control de horas extra y novedades
+- ✅ Perfiles con permisos por módulo
+- ✅ Exportación a sistemas ERP externos
+- ✅ Dashboard con indicadores en tiempo real
+
+</td>
+<td width="50%">
+
+### 🚚 Logística y Distribución
+Optimización de rutas con gestión de pedidos, vehículos y clientes, geolocalización y generación automática de rutas.
+
+- ✅ Geolocalización con integración de mapas
+- ✅ Generación automática de rutas optimizadas
+- ✅ Importación de datos desde ERP externos
+- ✅ Reportes con branding personalizado
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📄 Facturación Electrónica
+Gestión de facturas con flujo de aprobaciones, sincronización de proveedores y cumplimiento normativo.
+
+- ✅ Ciclo de vida completo de facturas
+- ✅ Sincronización de proveedores vía correo
+- ✅ Dashboard con alertas de vencimiento
+- ✅ Auditoría detallada de cada operación
+
+</td>
+<td width="50%">
+
+### 🎛️ Orquestación y Gateway
+Punto de entrada unificado que gestiona módulos, configuración de servidor, health checks y gateway para IA.
+
+- ✅ Gestión centralizada de módulos
+- ✅ Generador de configuración automática
+- ✅ Gateway unificado para asistentes de IA
+- ✅ Monitoreo del estado de cada módulo
+
+</td>
+</tr>
+</table>
 
 ### 📋 Bitácora
 

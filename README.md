@@ -18,7 +18,7 @@
 
 ## Perfil
 
-Ingeniero de software con **Maestría en Ciberseguridad**, creador de **Synnox ERP**, una plataforma empresarial modular que integra nómina, logística, facturación electrónica y orquestación de módulos. Enfocado en arquitecturas escalables donde cada componente es autónomo, seguro y mantenible a largo plazo.
+Ingeniero de software con **Maestría en Ciberseguridad**, creador de **SynnoxERP**, monorepo ERP en producción que integra nómina, logística, facturación electrónica y orquestación de módulos bajo una sola base de datos PostgreSQL. Enfocado en arquitecturas escalables donde cada componente es autónomo, seguro y mantenible a largo plazo.
 
 ---
 
@@ -33,68 +33,30 @@ Ingeniero de software con **Maestría en Ciberseguridad**, creador de **Synnox E
 
 ---
 
-## Proyecto Principal
+## Proyecto Actual
 
-<div align="center">
+### 🚀 SynnoxERP
 
-### 🏢 Synnox ERP
+Monorepo ERP unificado que consolida los módulos de HR/Nómina, Logística, Proveedores y Facturación bajo una sola base de datos PostgreSQL. **En producción desde julio 2026**, con beta pública arrancando el 30/07/2026 en Vitamar.
 
-**Plataforma ERP Modular Empresarial**
+**Stack:** Node.js, Express, PostgreSQL, JWT, Nginx, PM2
+**Principios:** Auth centralizada, módulos desacoplados dentro de un monorepo, migración progresiva desde arquitectura multi-servicio
 
-</div>
+📦 Repo privado — en desarrollo activo
 
-Plataforma empresarial construida con arquitectura de módulos independientes, diseñada para empresas que necesitan escalabilidad, seguridad y flexibilidad. Cada módulo es autónomo, gestiona su propia autenticación y base de datos, y se orquesta desde un punto central con integración de asistentes de IA.
+### 📋 Bitácora
 
-<table>
-<tr>
-<td width="50%">
+**2026-07-28** — SynnoxERP sale a producción. Beta pública en Vitamar arranca el jueves.
 
-### 🕐 Nómina y Control Horario
-Gestión de empleados, control de horas extra y novedades de nómina con perfiles y permisos granulares.
+*(entradas anteriores de Horix Platform quedan documentadas en los repos legacy)*
 
-- ✅ Control de horas extra y novedades
-- ✅ Perfiles con permisos por módulo
-- ✅ Exportación a sistemas ERP externos
-- ✅ Dashboard con indicadores en tiempo real
+### 🗄️ Legacy
 
-</td>
-<td width="50%">
+Estos proyectos fueron absorbidos por SynnoxERP y ya no reciben desarrollo activo, pero quedan disponibles como referencia de la arquitectura original (Launcher + MCP Gateway + módulos independientes):
 
-### 🚚 Logística y Distribución
-Optimización de rutas con gestión de pedidos, vehículos y clientes, geolocalización y generación automática de rutas.
-
-- ✅ Geolocalización con integración de mapas
-- ✅ Generación automática de rutas optimizadas
-- ✅ Importación de datos desde ERP externos
-- ✅ Reportes con branding personalizado
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📄 Facturación Electrónica
-Gestión de facturas con flujo de aprobaciones, sincronización de proveedores y cumplimiento normativo.
-
-- ✅ Ciclo de vida completo de facturas
-- ✅ Sincronización de proveedores vía correo
-- ✅ Dashboard con alertas de vencimiento
-- ✅ Auditoría detallada de cada operación
-
-</td>
-<td width="50%">
-
-### 🎛️ Orquestación y Gateway
-Punto de entrada unificado que gestiona módulos, configuración de servidor, health checks y gateway para IA.
-
-- ✅ Gestión centralizada de módulos
-- ✅ Generador de configuración automática
-- ✅ Gateway unificado para asistentes de IA
-- ✅ Monitoreo del estado de cada módulo
-
-</td>
-</tr>
-</table>
+- [horix-erp](https://github.com/Kernel-Panic92/horix-erp) — ERP modular (launcher + orquestador)
+- [Horix](https://github.com/Kernel-Panic92/Horix) — Control de horas extra y novedades de nómina
+- [docflow](https://github.com/Kernel-Panic92/docflow) — Recepción electrónica de facturas
 
 ---
 

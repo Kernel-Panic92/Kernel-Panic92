@@ -18,7 +18,7 @@
 
 ## Perfil
 
-Ingeniero de software con **Maestría en Ciberseguridad**, enfocado en el diseño y desarrollo de plataformas empresariales modulares y escalables. Experiencia construyendo sistemas ERP, módulos de logística, gestión documental y aplicaciones de escritorio, siempre priorizando la autonomía de los componentes, la seguridad y la mantenibilidad a largo plazo.
+Ingeniero de software con **Maestría en Ciberseguridad**, creador de **Synnox ERP**, una plataforma empresarial modular que integra nómina, logística, facturación electrónica y orquestación de módulos. Enfocado en arquitecturas escalables donde cada componente es autónomo, seguro y mantenible a largo plazo.
 
 ---
 
@@ -41,27 +41,27 @@ Ingeniero de software con **Maestría en Ciberseguridad**, enfocado en el diseñ
 
 **Plataforma ERP Modular Empresarial**
 
-Sistema ERP construido con arquitectura de módulos independientes, diseñado para empresas que necesitan escalabilidad, seguridad y flexibilidad.
-
 </div>
+
+Plataforma empresarial construida con arquitectura de módulos independientes, diseñada para empresas que necesitan escalabilidad, seguridad y flexibilidad. Cada módulo es autónomo, gestiona su propia autenticación y base de datos, y se orquesta desde un punto central con integración de asistentes de IA.
 
 <table>
 <tr>
 <td width="50%">
 
-### 🕐 Horix — Nómina y Control Horario
-Módulo de gestión de empleados, control de horas extra y novedades de nómina con perfiles de usuario y permisos por módulo.
+### 🕐 Nómina y Control Horario
+Gestión de empleados, control de horas extra y novedades de nómina con perfiles y permisos granulares.
 
 - ✅ Control de horas extra y novedades
 - ✅ Perfiles con permisos por módulo
-- ✅ Exportación a sistemas externos (SIESA)
+- ✅ Exportación a sistemas ERP externos
 - ✅ Dashboard con indicadores en tiempo real
 
 </td>
 <td width="50%">
 
-### 🚚 Horix Logística — Rutas y Distribución
-Optimización de rutas de distribución con gestión de pedidos, vehículos y clientes, geolocalización y generación automática de rutas.
+### 🚚 Logística y Distribución
+Optimización de rutas con gestión de pedidos, vehículos y clientes, geolocalización y generación automática de rutas.
 
 - ✅ Geolocalización con integración de mapas
 - ✅ Generación automática de rutas optimizadas
@@ -73,19 +73,19 @@ Optimización de rutas de distribución con gestión de pedidos, vehículos y cl
 <tr>
 <td width="50%">
 
-### 📄 DocFlow — Facturación Electrónica
-Gestión de facturas con flujo de aprobaciones, sincronización de proveedores vía correo y cumplimiento normativo DIAN.
+### 📄 Facturación Electrónica
+Gestión de facturas con flujo de aprobaciones, sincronización de proveedores y cumplimiento normativo.
 
 - ✅ Ciclo de vida completo de facturas
-- ✅ Sincronización IMAP de proveedores
+- ✅ Sincronización de proveedores vía correo
 - ✅ Dashboard con alertas de vencimiento
 - ✅ Auditoría detallada de cada operación
 
 </td>
 <td width="50%">
 
-### 🎛️ Launcher — Orquestador Central
-Punto de entrada unificado que orquesta todos los módulos: gestión de usuarios, configuración de servidor, health checks y gateway para IA.
+### 🎛️ Orquestación y Gateway
+Punto de entrada unificado que gestiona módulos, configuración de servidor, health checks y gateway para IA.
 
 - ✅ Gestión centralizada de módulos
 - ✅ Generador de configuración automática

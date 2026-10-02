@@ -1,50 +1,46 @@
 <div align="center">
 
 # Edgar Velásquez
+### **Lead Software Engineer & Cybersecurity Specialist**
 
-![Software Engineer](https://img.shields.io/badge/Software_Engineer-2D333B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05LjQgMTYuNkwzLjggMTFsLjYuNkwxMC40IDE4bDExLjItMTEuMi42LS42WiIvPjwvc3ZnPg==)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-00599C?style=for-the-badge&logo=cisco&logoColor=white)
-![Colombia](https://img.shields.io/badge/Colombia-CE1126?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjE2IiBmaWxsPSIjRkVDRTEyIi8+PHJlY3QgeT0iMTYiIHdpZHRoPSIzMiIgaGVpZ2h0PSI4IiBmaWxsPSIjMDA1OUFDIi8+PHJlY3QgeT0iMjQiIHdpZHRoPSIzMiIgaGVpZ2h0PSI4IiBmaWxsPSIjQ0UxMTI2Ii8+PC9zdmc+)
+[![Software Engineer](https://img.shields.io/badge/Software_Engineer-2D333B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05LjQgMTYuNkwzLjggMTFsLjYuNkwxMC40IDE4bDExLjItMTEuMi42LS42WiIvPjwvc3ZnPg==)](#)
+[![Cybersecurity](https://img.shields.io/badge/Cybersecurity_MSc-00599C?style=for-the-badge&logo=cisco&logoColor=white)](#)
+[![AI & MCP](https://img.shields.io/badge/MCP_Protocol-Enterprise_AI-6366F1?style=for-the-badge&logo=anthropic&logoColor=white)](#)
+[![Colombia](https://img.shields.io/badge/Colombia-CE1126?style=for-the-badge)](#)
+
+<p align="center">
+  <em>"Diseñando arquitecturas modulares, sistemas empresariales resilientes e integración segura de agentes de IA."</em>
+</p>
 
 `edgar.velasquez1992@proton.me` · [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kernel-Panic92)
 
----
-
-### *"Construyendo sistemas modulares, escalables y seguros"*
-
 </div>
 
 ---
 
-## Perfil
+## 👨‍💻 Sobre Mí
 
-Ingeniero de software con **Maestría en Ciberseguridad**, creador de **SynnoxERP**, monorepo ERP en producción que integra nómina, logística, facturación electrónica y orquestación de módulos bajo una sola base de datos PostgreSQL. Enfocado en arquitecturas escalables donde cada componente es autónomo, seguro y mantenible a largo plazo.
+Ingeniero de Software con **Maestría en Ciberseguridad** (Universitat de Catalunya) y Coordinador de TI / Sistemas con experiencia integral en desarrollo de software empresarial, seguridad operativa e infraestructura crítica.
 
----
-
-## Educación
-
-<div align="center">
-
-![Master](https://img.shields.io/badge/🎓_Maestría_en_Ciberseguridad-00599C?style=for-the-badge&labelColor=00599C&color=white)
-![University](https://img.shields.io/badge/🏛️_Universitat_de_Catalunya-CE1126?style=for-the-badge&labelColor=CE1126&color=white)
-
-</div>
+* 🛡️ **Seguridad por diseño**: Implementación de controles estrictos de autenticación (OAuth 2.0 / JWT), RBAC modular y auditorías de datos bajo estándares de ciberseguridad.
+* 🤖 **AI-Ready Systems**: Pionero en la integración del **Model Context Protocol (MCP)** para permitir que agentes de IA operen de forma segura sobre bases de datos relacionales y plataformas ERP.
+* 📦 **Arquitectura Monorepo & Escalabilidad**: Autor y mantenedor de **SynnoxERP**, monorepo en producción para control logístico, nómina, facturación e interfaces API.
 
 ---
 
-## Proyecto Principal
+## 🚀 Proyecto Destacado: SynnoxERP
 
 <div align="center">
 
-### 🚀 SynnoxERP
+### **SynnoxERP — Enterprise Resource Planning & AI Gateway**
+*Monorepo modular en producción empresarial · Alta concurrencia y tolerancia a fallos*
 
-**Monorepo ERP unificado** · En producción desde julio 2026 · Beta pública en Vitamar
-
-**Stack:** Node.js, Express, PostgreSQL, JWT, Nginx, PM2
-**Principios:** Auth centralizada, módulos desacoplados dentro de un monorepo, migración progresiva desde arquitectura multi-servicio
-
-📦 Repo privado — en desarrollo activo
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-6366F1?style=flat-square&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 </div>
 
@@ -52,104 +48,70 @@ Ingeniero de software con **Maestría en Ciberseguridad**, creador de **SynnoxER
 <tr>
 <td width="50%">
 
-### 🕐 Nómina y Control Horario
-Gestión de empleados, control de horas extra y novedades de nómina con perfiles y permisos granulares.
-
-- ✅ Control de horas extra y novedades
-- ✅ Perfiles con permisos por módulo
-- ✅ Exportación a sistemas ERP externos
-- ✅ Dashboard con indicadores en tiempo real
+### 🕐 Nómina & Gestión Operativa
+- Control de horas extra, cálculo de novedades y liquidación.
+- Matriz RBAC con validaciones de perfiles a nivel de endpoint.
+- Integración y exportación hacia sistemas ERP legados (Siesa).
+- Dashboards analíticos de productividad en tiempo real.
 
 </td>
 <td width="50%">
 
-### 🚚 Logística y Distribución
-Optimización de rutas con gestión de pedidos, vehículos y clientes, geolocalización y generación automática de rutas.
-
-- ✅ Geolocalización con integración de mapas
-- ✅ Generación automática de rutas optimizadas
-- ✅ Importación de datos desde ERP externos
-- ✅ Reportes con branding personalizado
+### 🚚 Logística Inteligente & Despachos
+- Motor de enrutamiento y optimización de flotas.
+- Geocercas y seguimiento de clientes con mapas integrados.
+- Trazabilidad y analítica de devoluciones operativas.
+- Procesamiento batch de pedidos y remisiones.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 📄 Facturación Electrónica
-Gestión de facturas con flujo de aprobaciones, sincronización de proveedores y cumplimiento normativo.
-
-- ✅ Ciclo de vida completo de facturas
-- ✅ Sincronización de proveedores vía correo
-- ✅ Dashboard con alertas de vencimiento
-- ✅ Auditoría detallada de cada operación
+### 📄 Facturación Electrónica & Proveedores
+- Pipeline automatizado para recepción e ingesta de XML/PDF (DIAN).
+- Flujo multinivel de aprobaciones de pago y auditoría.
+- Control de vencimientos comerciales y fiscales con alertas tempranas.
+- Sincronización continua de estados contables.
 
 </td>
 <td width="50%">
 
-### 🎛️ Orquestación y Gateway
-Punto de entrada unificado que gestiona módulos, configuración de servidor, health checks y gateway para IA.
-
-- ✅ Gestión centralizada de módulos
-- ✅ Generador de configuración automática
-- ✅ Gateway unificado para asistentes de IA
-- ✅ Monitoreo del estado de cada módulo
+### 🎛️ AI Agent Gateway & Protocolo MCP
+- Servidor MCP integrado para conexión con asistentes como **Gemini Enterprise**.
+- Herramientas dedicadas con validación *fail-fast* de credenciales y permisos.
+- Orquestación centralizada de salud del servidor y telemetría.
+- Gateway seguro para ejecución de acciones operativas por IA.
 
 </td>
 </tr>
 </table>
 
-### 🗄️ Legacy
-
-Estos proyectos fueron absorbidos por SynnoxERP y ya no reciben desarrollo activo, pero quedan disponibles como referencia de la arquitectura original (Launcher + MCP Gateway + módulos independientes):
-
-- [horix-erp](https://github.com/Kernel-Panic92/horix-erp) — ERP modular (launcher + orquestador)
-- [Horix](https://github.com/Kernel-Panic92/Horix) — Control de horas extra y novedades de nómina
-- [docflow](https://github.com/Kernel-Panic92/docflow) — Recepción electrónica de facturas
-
 ---
 
-## Otros Proyectos
-
-### 📹 CamLight CCTV
-Aplicación de escritorio Windows para gestión de cámaras IP con streaming en tiempo real, grabación y visualización en cuadrícula multi-cámara.
-
----
-
-## Habilidades
+## 🛠️ Stack Tecnológico
 
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)
-![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-4285F4?style=for-the-badge&logo=oauth&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05LjQgMTYuNkwzLjggMTFsLjYuNkwxMC40IDE4bDExLjItMTEuMi42LS42WiIvPjwvc3ZnPg==)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF4444?style=for-the-badge&logo=lockself-destruct&logoColor=white)
-![Architecture](https://img.shields.io/badge/Modular_Architecture-8B5CF6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyTDIgN3YxMGwxMCA1IDEwLTVIN1Y3bDUtM3oiLz48L3N2Zz4=)
+| Área | Tecnologías & Herramientas |
+| :--- | :--- |
+| **Backend & APIs** | Node.js, Express.js, Python, C#, REST APIs, Model Context Protocol (MCP) |
+| **Bases de Datos** | PostgreSQL (Avanzado), SQLite, Redis, Modelado Relacional |
+| **Seguridad & Auth** | OAuth 2.0, JWT, RBAC Granular, Hardening de Linux, Ciberseguridad Defensiva |
+| **DevOps & Cloud** | Linux (Ubuntu/Debian), Docker, Nginx (Reverse Proxy), PM2, Git, CI/CD Actions |
+| **Sistemas ERP** | Integración con Siesa ERP, Nómina electrónica, Facturación DIAN |
 
 </div>
 
 ---
 
-## GitHub Stats
+## 📊 Estadísticas de GitHub
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Kernel-Panic92&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
-</div>
-
-<div align="center">
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kernel-Panic92&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kernel-Panic92&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
@@ -157,11 +119,11 @@ Aplicación de escritorio Windows para gestión de cámaras IP con streaming en 
 
 ---
 
-## Contacto
+## 📬 Contacto Profesional
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:edgar.velasquez1992@proton.me)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kernel-Panic92)
+[![Email](https://img.shields.io/badge/Email-edgar.velasquez1992%40proton.me-D14836?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:edgar.velasquez1992@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-Kernel--Panic92-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kernel-Panic92)
 
 </div>

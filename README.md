@@ -6,6 +6,8 @@
 [![Software Engineer](https://img.shields.io/badge/Software_Engineer-2D333B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05LjQgMTYuNkwzLjggMTFsLjYuNkwxMC40IDE4bDExLjItMTEuMi42LS42WiIvPjwvc3ZnPg==)](#)
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity_MSc-00599C?style=for-the-badge&logo=cisco&logoColor=white)](#)
 [![AI & MCP](https://img.shields.io/badge/MCP_Protocol-Enterprise_AI-6366F1?style=for-the-badge&logo=anthropic&logoColor=white)](#)
+[![Gemini Enterprise](https://img.shields.io/badge/Gemini_Enterprise-AI_Workspace-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)](#)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-AI_Coding-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](#)
 [![Colombia](https://img.shields.io/badge/Colombia-CE1126?style=for-the-badge)](#)
 
 <p align="center">
@@ -23,7 +25,7 @@
 Ingeniero de Software con **Maestría en Ciberseguridad** (Universitat de Catalunya) y Coordinador de TI / Sistemas con experiencia integral en desarrollo de software empresarial, seguridad operativa e infraestructura crítica.
 
 * 🛡️ **Seguridad por diseño**: Implementación de controles estrictos de autenticación (OAuth 2.0 / JWT), RBAC modular y auditorías de datos bajo estándares de ciberseguridad.
-* 🤖 **AI-Ready Systems**: Pionero en la integración del **Model Context Protocol (MCP)** para permitir que agentes de IA operen de forma segura sobre bases de datos relacionales y plataformas ERP.
+* 🤖 **AI-Ready Systems & Desarrollo Aumentado**: Pionero en la integración del **Model Context Protocol (MCP)** para permitir que agentes de IA operen de forma segura sobre bases de datos relacionales y plataformas ERP. Adopto herramientas avanzadas de IA (GitHub Copilot, Gemini Enterprise, Claude) tanto en el flujo de diseño y desarrollo como en la automatización de procesos empresariales.
 * 📦 **Arquitectura Monorepo & Escalabilidad**: Autor y mantenedor de **SynnoxERP**, monorepo en producción para control logístico, nómina, facturación e interfaces API.
 
 ---
@@ -95,7 +97,9 @@ Ingeniero de Software con **Maestría en Ciberseguridad** (Universitat de Catalu
 
 | Área | Tecnologías & Herramientas |
 | :--- | :--- |
-| **Backend & APIs** | Node.js, Express.js, Python, C#, REST APIs, Model Context Protocol (MCP) |
+| **Backend & APIs** | Node.js, Express.js, Python, C#, REST APIs |
+| **IA & Sistemas Agénticos** | Model Context Protocol (MCP SDK), Gemini Enterprise, Claude/OpenAI APIs, Agentic Tool Calling, RBAC para IA |
+| **Desarrollo IA** | GitHub Copilot, Claude Code, Prompts Avanzados para Hardening y Auditoría de Código |
 | **Bases de Datos** | PostgreSQL (Avanzado), SQLite, Redis, Modelado Relacional |
 | **Seguridad & Auth** | OAuth 2.0, JWT, RBAC Granular, Hardening de Linux, Ciberseguridad Defensiva |
 | **DevOps & Cloud** | Linux (Ubuntu/Debian), Docker, Nginx (Reverse Proxy), PM2, Git, CI/CD Actions |

@@ -53,4 +53,81 @@ Ingeniero de Software con **Maestría en Ciberseguridad** (Universitat de Catalu
 ### 🕐 Nómina & Gestión Operativa
 - Control de horas extra, cálculo de novedades y liquidación.
 - Matriz RBAC con validaciones de perfiles a nivel de endpoint.
-- Integración y exportación hacia sistemas ERP legados (Siesa)
+- Integración y exportación hacia sistemas ERP legados (Siesa).
+- Dashboards analíticos de productividad en tiempo real.
+
+</td>
+<td width="50%">
+
+### 🚚 Logística Inteligente & Despachos
+- Motor de enrutamiento y optimización de flotas.
+- Geocercas y seguimiento de clientes con mapas integrados.
+- Trazabilidad y analítica de devoluciones operativas.
+- Procesamiento batch de pedidos y remisiones.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📄 Facturación Electrónica & Proveedores
+- Pipeline automatizado para recepción e ingesta de XML/PDF (DIAN).
+- Flujo multinivel de aprobaciones de pago y auditoría.
+- Control de vencimientos comerciales y fiscales con alertas tempranas.
+- Sincronización continua de estados contables.
+
+</td>
+<td width="50%">
+
+### 🎛️ AI Agent Gateway & Protocolo MCP
+- Servidor MCP integrado para conexión con asistentes como **Gemini Enterprise**.
+- Herramientas dedicadas con validación *fail-fast* de credenciales y permisos.
+- Orquestación centralizada de salud del servidor y telemetría.
+- Gateway seguro para ejecución de acciones operativas por IA.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Stack Tecnológico
+
+<div align="center">
+
+| Área | Tecnologías & Herramientas |
+| :--- | :--- |
+| **Backend & APIs** | Node.js, Express.js, Python, C#, REST APIs |
+| **IA & Sistemas Agénticos** | Model Context Protocol (MCP SDK), Gemini Enterprise, Claude/OpenAI APIs, Agentic Tool Calling, RBAC para IA |
+| **Desarrollo IA** | **OpenCode (Agente autónomo terminal)**, GitHub Copilot, Claude Code, Prompts Avanzados para Hardening y Auditoría de Código |
+| **Bases de Datos** | PostgreSQL (Avanzado), SQLite, Redis, Modelado Relacional |
+| **Seguridad & Auth** | OAuth 2.0, JWT, RBAC Granular, Hardening de Linux, Ciberseguridad Defensiva |
+| **DevOps & Cloud** | Linux (Ubuntu/Debian), Docker, Nginx (Reverse Proxy), PM2, Git, CI/CD Actions |
+| **Sistemas ERP** | Integración con Siesa ERP, Nómina electrónica, Facturación DIAN |
+
+</div>
+
+---
+
+## 📊 Estadísticas de GitHub
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kernel-Panic92&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kernel-Panic92&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kernel-Panic92&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 📬 Contacto Profesional
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-edgar.velasquez1992%40proton.me-D14836?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:edgar.velasquez1992@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-Kernel--Panic92-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kernel-Panic92)
+
+</div>

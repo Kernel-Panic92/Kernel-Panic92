@@ -24,70 +24,87 @@
 
 Ingeniero de Software con **Maestría en Ciberseguridad** (Universitat de Catalunya) y Coordinador de TI / Sistemas con experiencia integral en desarrollo de software empresarial, seguridad operativa e infraestructura crítica.
 
-* 🛡️ **Seguridad por diseño**: Implementación de controles estrictos de autenticación (OAuth 2.0 / JWT), RBAC modular y auditorías de datos bajo estándares de ciberseguridad.
-* 🤖 **AI-Ready Systems & Desarrollo Aumentado**: Pionero en la integración del **Model Context Protocol (MCP)** para permitir que agentes de IA operen de forma segura sobre bases de datos relacionales y plataformas ERP. Adopto herramientas y agentes autónomos de IA (OpenCode, GitHub Copilot, Gemini Enterprise, Claude) tanto en el flujo de diseño y desarrollo como en la automatización de procesos empresariales.
-* 📦 **Arquitectura Monorepo & Escalabilidad**: Autor y mantenedor de **SynnoxERP**, monorepo en producción para control logístico, nómina, facturación e interfaces API.
+* 🛡️ **Seguridad por diseño & SecOps**: Implementación de controles estrictos de autenticación (OAuth 2.0 / JWT), matrices RBAC granulares y herramientas como **CyberAudit AI** para auditoría y respuesta automatizada a amenazas.
+* 🤖 **AI-Ready Systems & Protocolo MCP**: Pionero en la implementación del **Model Context Protocol (MCP)** para permitir que asistentes como Gemini Enterprise y Claude operen con seguridad sobre bases de datos relacionales y plataformas ERP empresariales.
+* 📦 **Arquitectura Monorepo & Alta Disponibilidad**: Autor y mantenedor de **SynnoxERP**, monorepo integral en producción corporativa para control logístico, CRM, nómina, facturación electrónica e interoperabilidad ERP.
 
 ---
 
-## 🚀 Proyecto Destacado: SynnoxERP
+## 🚀 Proyectos Destacados
 
-<div align="center">
-
-### **SynnoxERP — Enterprise Resource Planning & AI Gateway**
-*Monorepo modular en producción empresarial · Alta concurrencia y tolerancia a fallos*
+### **1. SynnoxERP — Modular Enterprise Platform & AI MCP Gateway**
+*Monorepo modular en producción empresarial · Alta concurrencia, tolerancia a fallos y auditoría DIAN.*
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-6366F1?style=flat-square&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-</div>
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 <table>
 <tr>
 <td width="50%">
 
-### 🕐 Nómina & Gestión Operativa
-- Control de horas extra, cálculo de novedades y liquidación.
-- Matriz RBAC con validaciones de perfiles a nivel de endpoint.
-- Integración y exportación hacia sistemas ERP legados (Siesa).
-- Dashboards analíticos de productividad en tiempo real.
+#### 🕐 Nómina & Gestión Operativa
+- Control de horas extra, novedades y liquidación quincenal.
+- Matriz RBAC con validaciones a nivel de endpoint.
+- Integración y conciliación contable con **Siesa HUB Suite**.
 
 </td>
 <td width="50%">
 
-### 🚚 Logística Inteligente & Despachos
+#### 🚚 Logística Inteligente & Despachos
 - Motor de enrutamiento y optimización de flotas.
-- Geocercas y seguimiento de clientes con mapas integrados.
+- Geocercas dinámicas y seguimiento de entregas.
 - Trazabilidad y analítica de devoluciones operativas.
-- Procesamiento batch de pedidos y remisiones.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 📄 Facturación Electrónica & Proveedores
-- Pipeline automatizado para recepción e ingesta de XML/PDF (DIAN).
-- Flujo multinivel de aprobaciones de pago y auditoría.
-- Control de vencimientos comerciales y fiscales con alertas tempranas.
-- Sincronización continua de estados contables.
+#### 📄 Facturación Electrónica & Proveedores
+- Pipeline DIAN / RADIAN (eventos 030/031, causales de reclamo).
+- Verificación criptográfica de expedientes (SHA-256 para PDF y XML).
+- Flujo multinivel de aprobaciones y control de pagos.
 
 </td>
 <td width="50%">
 
-### 🎛️ AI Agent Gateway & Protocolo MCP
-- Servidor MCP integrado para conexión con asistentes como **Gemini Enterprise**.
-- Herramientas dedicadas con validación *fail-fast* de credenciales y permisos.
-- Orquestación centralizada de salud del servidor y telemetría.
-- Gateway seguro para ejecución de acciones operativas por IA.
+#### 📈 CRM & Pipeline Comercial
+- Prospección, cotizaciones dinámicas con listas de precios.
+- Seguimiento de actividades, visitas comerciales y métricas.
+- Validación de NITs y catálogos maestros de clientes.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### ✍️ Firma Electrónica (Synnox Sign)
+- Módulo integrado para firma digital de documentos y contratos.
+- Sellado de auditoría, trazabilidad y almacenamiento seguro.
+
+</td>
+<td width="50%">
+
+#### 🎛️ AI Agent Gateway (MCP Server)
+- Servidor MCP integrado para conexión con **Gemini Enterprise**.
+- Herramientas dedicadas con validación *fail-fast* de permisos.
+- Orquestación segura de acciones operativas por IA.
 
 </td>
 </tr>
 </table>
+
+---
+
+### **2. CyberAudit AI & Automatización de Seguridad**
+*Orquestación de ciberseguridad defensiva y análisis de amenazas mediante IA.*
+- Detección y clasificación automatizada de correos sospechosos y campañas de phishing.
+- Extracción y correlación de IOCs (IPs, dominios, URLs) contra fuentes de inteligencia de amenazas.
+- Registro centralizado de eventos y alertas automáticas para el equipo de seguridad.
 
 ---
 
@@ -97,13 +114,13 @@ Ingeniero de Software con **Maestría en Ciberseguridad** (Universitat de Catalu
 
 | Área | Tecnologías & Herramientas |
 | :--- | :--- |
-| **Backend & APIs** | Node.js, Express.js, Python, C#, REST APIs |
+| **Backend & APIs** | Node.js, Express.js, Python, C#, REST APIs, Webhooks |
 | **IA & Sistemas Agénticos** | Model Context Protocol (MCP SDK), Gemini Enterprise, Claude/OpenAI APIs, Agentic Tool Calling, RBAC para IA |
-| **Desarrollo IA** | **OpenCode (Agente autónomo terminal)**, GitHub Copilot, Claude Code, Prompts Avanzados para Hardening y Auditoría de Código |
+| **Desarrollo Asistido por IA** | OpenCode, GitHub Copilot, Claude Code, Prompts de Hardening y Auditoría |
 | **Bases de Datos** | PostgreSQL (Avanzado), SQLite, Redis, Modelado Relacional |
-| **Seguridad & Auth** | OAuth 2.0, JWT, RBAC Granular, Hardening de Linux, Ciberseguridad Defensiva |
-| **DevOps & Cloud** | Linux (Ubuntu/Debian), Docker, Nginx (Reverse Proxy), PM2, Git, CI/CD Actions |
-| **Sistemas ERP** | Integración con Siesa ERP, Nómina electrónica, Facturación DIAN |
+| **Seguridad & Auth** | OAuth 2.0, JWT, RBAC Granular, Hardening Linux, CyberAudit AI |
+| **DevOps & Cloud** | Linux (Debian/Ubuntu), Docker, Cloudflare (WAF/CDN), Nginx, PM2, Git, CI/CD Actions |
+| **Sistemas ERP** | Integración Siesa HUB Suite, Nómina electrónica, Facturación DIAN/RADIAN |
 
 </div>
 
